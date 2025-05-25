@@ -33,9 +33,10 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 
 ### State Level
 
-- [California Open Data Portal](https://data.ca.gov/) - Statewide parcel data and land use information.
-- [Florida Geographic Data Library](https://www.fgdl.org/) - Comprehensive GIS data including property boundaries.
+- [California Statewide Parcel Map](https://geohub.lacity.org/documents/baaf8251bfb94d3984fb58cb5fd93258) - Statewide wall-to-wall parcels in 1.6GB file geodatabase bulk download.
+- [Florida Geographic Data Library](https://www.fgdl.org/) - Statewide parcels available as 2.5GB bulk download (parcels_2023.zip, updated 2024-06-10).
 - [New York State GIS Clearinghouse](https://gis.ny.gov/) - Comprehensive spatial data portal.
+- [North Carolina OneMap Parcels](https://www.nconemap.gov/pages/parcels) - Statewide parcel data for North Carolina.
 - [Texas Natural Resources Information System](https://tnris.org/) - Statewide geographic data clearinghouse.
 - [Washington State Geospatial Open Data Portal](https://geo.wa.gov/) - Statewide GIS data including parcels.
 
@@ -78,7 +79,7 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 
 - [Brazil IBGE](https://www.ibge.gov.br/geociencias/downloads-geociencias.html) - Brazilian geographic and statistical data.
 - [India Survey of India](https://www.surveyofindia.gov.in/) - National mapping agency data.
-- [South Africa National Geo-spatial Information](https://www.ngi.gov.za/index.php/what-we-do/mapping-and-surveying) - National spatial data infrastructure.
+- [South Africa National Geo-spatial Information](https://ngi.dalrrd.gov.za/) - National spatial data infrastructure.
 
 ## Tools & Libraries
 
