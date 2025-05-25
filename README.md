@@ -2,7 +2,7 @@
 
 > A curated list of free land parcel data sources, tools, and resources for GIS professionals, researchers, and developers.
 
-Land parcel data is fundamental for urban planning, real estate analysis, environmental studies, and many other applications. This list focuses on freely available, high-quality parcel datasets and related tools.
+Land parcel data is fundamental for urban planning, real estate analysis, environmental studies, and many other applications. This list focuses on freely available parcel data.
 
 ## Contents
 
@@ -46,11 +46,29 @@ States with parcel data available for select counties only:
 
 #### Oregon
 - [Oregon Department of Forestry](https://gis.odf.oregon.gov/ags1/rest/services/WebMercator/TaxlotsDisplay/MapServer) - Tax lot data for all 36 counties via MapServer service.
-- **Note**: Data currency and completeness varies significantly by county; no standardized statewide dataset.
+- **Coverage**: All 36 Oregon counties included in single MapServer service layer.
+- **Data Format**: ArcGIS MapServer service supporting multiple export formats (PNG, JPG, PDF, GeoJSON).
+- **Coordinate System**: Oregon Lambert projection (original data) served in Web Mercator (EPSG:3857).
+- **Access Methods**: ArcGIS web viewers, ArcMap, ArcGIS Pro, ArcGIS Online Map Viewer, ArcGIS Earth.
+- **Limitations**: No bulk download option; data must be accessed through MapServer queries with 1000 record limit per request.
+- **Note**: Data currency and completeness varies significantly by county; no standardized statewide dataset or update schedule.
 
 #### Texas
 - [Texas Natural Resources Information System](https://data.tnris.org/) - County-level parcel data available through modern DataHub with API access.
-- **Note**: Texas does not provide statewide parcel coverage; data availability varies by county.
+- **Data Portal**: Modern web-based DataHub interface with search, filter, and download capabilities.
+- **API Access**: RESTful API for programmatic data access and integration.
+- **Bulk Download Tool**: [TNRIS Bulk Downloader](https://github.com/TNRIS/go-bulk-downloader) - Go-based command-line tool for automated large dataset downloads.
+- **Data Formats**: Multiple formats available including Shapefile, GeoJSON, and other standard GIS formats.
+- **Coverage Variability**: Data availability, currency, and completeness varies significantly by county based on local data sharing agreements.
+- **Note**: Texas does not provide statewide parcel coverage; each county maintains its own parcel data with varying levels of participation in state data sharing.
+
+#### Utah
+- [Utah Geospatial Resource Center](https://gis.utah.gov/products/sgid/cadastre/parcels/) - Parcel data for all 29 counties available through SGID database with both basic parcels and enhanced Land Information Records (LIR).
+- **Data Types**: Basic parcels (boundaries, IDs, addresses) and LIR parcels (with tax roll attributes including market values, building details, construction year).
+- **Update Schedule**: "Big 5" counties (Davis, Salt Lake, Utah, Washington, Weber) updated monthly; rural counties quarterly to annually.
+- **Access Methods**: ArcGIS feature services, direct database queries, statewide feature service, vector tile service.
+- **Legal Foundation**: Mandated by HB113 (2005) requiring state coordination with county recorders and surveyors.
+- **Note**: While all counties are covered, each county must be downloaded separately; no single statewide bulk download available.
 
 ## Global Sources
 
