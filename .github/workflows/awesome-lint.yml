@@ -1,0 +1,62 @@
+name: Awesome List CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    
+    - name: Lint Awesome List
+      run: |
+        # Check for awesome badge
+        if ! grep -q "awesome.re/badge.svg" README.md; then
+          echo "Missing awesome badge"
+          exit 1
+        fi
+        
+        # Check for table of contents
+        if ! grep -q "## Contents" README.md; then
+          echo "Missing table of contents"
+          exit 1
+        fi
+        
+        # Check for contributing section
+        if ! grep -q "## Contributing" README.md; then
+          echo "Missing contributing section"
+          exit 1
+        fi
+        
+        echo "Awesome list format checks passed"
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Check Links
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/markdown-link-check.json'
+        folder-path: '.'
+        file-path: './README.md'
+
+  format-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Check Markdown Format
+      uses: DavidAnson/markdownlint-cli2-action@v9
+      with:
+        globs: '**/*.md'
+        config: '.github/markdownlint.json' 

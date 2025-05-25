@@ -1,0 +1,8 @@
+# Requirements for validation scripts
+# Currently using only standard library modules
+# Add dependencies here if needed in the future
+
+# For future enhancements:
+# requests>=2.28.0  # For link checking
+# beautifulsoup4>=4.11.0  # For HTML parsing
+# pyyaml>=6.0  # For YAML configuration files 
