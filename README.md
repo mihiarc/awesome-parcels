@@ -16,12 +16,6 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 - [Europe](#europe)
 - [Australia & New Zealand](#australia--new-zealand)
 - [Other Countries](#other-countries)
-- [Tools & Libraries](#tools--libraries)
-- [APIs](#apis)
-- [Visualization Tools](#visualization-tools)
-- [Data Processing](#data-processing)
-- [Educational Resources](#educational-resources)
-- [Standards & Formats](#standards--formats)
 
 ## United States
 
