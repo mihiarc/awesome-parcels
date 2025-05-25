@@ -26,7 +26,7 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 
 ### Federal
 
-- [BLM GeoCommunicator](https://www.geocommunicator.gov/) - Bureau of Land Management's land records and survey data.
+- [BLM Land Records](https://www.blm.gov/services/land-records) - Bureau of Land Management's land records and survey data.
 - [Census Bureau TIGER/Line](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) - Topologically Integrated Geographic Encoding and Referencing system.
 - [USDA Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/) - Agricultural and natural resource data including land use.
 - [USGS National Map](https://www.usgs.gov/programs/national-geospatial-program/national-map) - Comprehensive geospatial data including land boundaries.
@@ -56,7 +56,7 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 ## Canada
 
 - [British Columbia Data Catalogue](https://catalogue.data.gov.bc.ca/) - Provincial open data including parcels.
-- [Natural Resources Canada GeoGratis](https://www.nrcan.gc.ca/maps-tools-and-publications/satellite-imagery-and-air-photos/application-development/web-services/geogratis-web-services/17285) - Free geospatial data portal.
+- [Natural Resources Canada Open Maps](https://open.canada.ca/data/en/dataset?organization=nrcan-rncan) - Free geospatial data portal.
 - [Ontario GeoHub](https://geohub.lio.gov.on.ca/) - Provincial geospatial data portal.
 - [Statistics Canada Boundary Files](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm) - Administrative boundary data.
 
@@ -64,21 +64,21 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 
 - [European Environment Agency](https://www.eea.europa.eu/data-and-maps) - Environmental and land use data across Europe.
 - [France Cadastre](https://cadastre.data.gouv.fr/) - French national cadastral data.
-- [Germany GeoBasis-DE](https://www.geobasis-de.de/) - German federal geospatial data.
+- [Germany GovData](https://www.govdata.de/) - German federal geospatial data portal.
 - [INSPIRE Geoportal](https://inspire-geoportal.ec.europa.eu/) - European spatial data infrastructure.
 - [UK Land Registry Open Data](https://landregistry.data.gov.uk/) - Property ownership and transaction data.
 
 ## Australia & New Zealand
 
 - [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files) - Statistical boundary files.
-- [Geoscience Australia](https://www.ga.gov.au/scientific-topics/national-location-information/digital-maps-and-data) - National geospatial datasets.
+- [Geoscience Australia](https://data.gov.au/data/organization/geoscience-australia) - National geospatial datasets.
 - [Land Information New Zealand (LINZ)](https://data.linz.govt.nz/) - Comprehensive land and property data.
 
 ## Other Countries
 
 - [Brazil IBGE](https://www.ibge.gov.br/geociencias/downloads-geociencias.html) - Brazilian geographic and statistical data.
 - [India Survey of India](https://www.surveyofindia.gov.in/) - National mapping agency data.
-- [South Africa National Geo-spatial Information](https://www.ngi.gov.za/) - National spatial data infrastructure.
+- [South Africa National Geo-spatial Information](https://www.ngi.gov.za/index.php/what-we-do/mapping-and-surveying) - National spatial data infrastructure.
 
 ## Tools & Libraries
 
