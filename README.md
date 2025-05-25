@@ -22,12 +22,6 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 - [Educational Resources](#educational-resources)
 - [Standards & Formats](#standards--formats)
 
-## Global Sources
-
-- [Global Administrative Areas (GADM)](https://gadm.org/) - Spatial database of administrative areas worldwide.
-- [Natural Earth](https://www.naturalearthdata.com/) - Public domain map dataset with administrative boundaries.
-- [OpenStreetMap](https://www.openstreetmap.org/) - Collaborative mapping project with land use and property boundary data.
-
 ## United States
 
 ### Federal
@@ -52,6 +46,12 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 - [Los Angeles County GIS Data Portal](https://egis-lacounty.hub.arcgis.com/) - Extensive spatial datasets.
 - [Miami-Dade County Open Data](https://opendata.miamidade.gov/) - Property and land use data.
 - [San Francisco DataSF](https://datasf.org/) - City and county spatial data portal.
+
+## Global Sources
+
+- [Global Administrative Areas (GADM)](https://gadm.org/) - Spatial database of administrative areas worldwide.
+- [Natural Earth](https://www.naturalearthdata.com/) - Public domain map dataset with administrative boundaries.
+- [OpenStreetMap](https://www.openstreetmap.org/) - Collaborative mapping project with land use and property boundary data.
 
 ## Canada
 
