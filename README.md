@@ -7,10 +7,9 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 ## Contents
 
 - [United States](#united-states)
-  - [Federal](#federal)
   - [Statewide Coverage](#statewide-coverage)
   - [County-Level Coverage](#county-level-coverage)
-  - [County/Local](#countylocal)
+  - [Federal](#federal)
 - [Global Sources](#global-sources)
 - [Canada](#canada)
 - [Europe](#europe)
@@ -19,25 +18,32 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 
 ## United States
 
-### Federal
-
-- [BLM Land Records](https://www.blm.gov/services/land-records) - Bureau of Land Management's land records and survey data.
-- [Census Bureau TIGER/Line](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) - Topologically Integrated Geographic Encoding and Referencing system.
-- [USDA Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/) - Agricultural and natural resource data including land use.
-- [USGS National Map](https://www.usgs.gov/programs/national-geospatial-program/national-map) - Comprehensive geospatial data including land boundaries.
 
 ### Statewide Coverage
 
 States with comprehensive, wall-to-wall parcel coverage:
 
-- [California Statewide Parcel Map](https://geohub.lacity.org/documents/baaf8251bfb94d3984fb58cb5fd93258) - Statewide wall-to-wall parcels in 1.6GB file geodatabase bulk download.
+#### California
+- [California Statewide Parcel Map](https://geohub.lacity.org/documents/baaf8251bfb94d3984fb58cb5fd93258) - Comprehensive statewide wall-to-wall parcels in 1.6GB file geodatabase bulk download.
+- **Coverage**: All 58 California counties with standardized parcel boundaries and attributes.
+- **Data Format**: File geodatabase (.gdb) with rich attribute schema including APN, addresses, land use codes, tax information, and building details.
+- **Attributes**: Assessor Parcel Numbers (APN), situs addresses, use codes, tax rate areas, building characteristics (year built, square footage, bedrooms/bathrooms), assessed values, and legal descriptions.
+- **Coordinate System**: California State Plane coordinate systems (varies by county) with Web Mercator versions available.
+- **Update Frequency**: Regular updates from county assessor offices, though frequency varies by county.
+- **Access Methods**: Direct download, ArcGIS feature services, and web map viewers.
+
+#### Florida
 - [Florida Geographic Data Library](https://fgdl.org/zips/geospatial_data/) - Statewide parcels in file geodatabase format with historical archive back to 2007.
+
+#### North Carolina
 - [North Carolina OneMap Parcels](https://www.nconemap.gov/pages/parcels) - Statewide parcel data for North Carolina.
+
+#### Washington
 - [Washington State Geospatial Open Data Portal](https://geo.wa.gov/) - Statewide GIS data including parcels.
 
 ### County-Level Coverage
 
-States with parcel data available for select counties only:
+States with parcel data available by county only only:
 
 #### New York
 - [New York State GIS Data Portal](https://data.gis.ny.gov/search?categories=%252Fcategories%252Fparcels) - Standardized parcels for 36 of 62 counties.
@@ -69,6 +75,13 @@ States with parcel data available for select counties only:
 - **Access Methods**: ArcGIS feature services, direct database queries, statewide feature service, vector tile service.
 - **Legal Foundation**: Mandated by HB113 (2005) requiring state coordination with county recorders and surveyors.
 - **Note**: While all counties are covered, each county must be downloaded separately; no single statewide bulk download available.
+
+### Federal
+
+- [BLM Land Records](https://www.blm.gov/services/land-records) - Bureau of Land Management's land records and survey data.
+- [Census Bureau TIGER/Line](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) - Topologically Integrated Geographic Encoding and Referencing system.
+- [USDA Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/) - Agricultural and natural resource data including land use.
+- [USGS National Map](https://www.usgs.gov/programs/national-geospatial-program/national-map) - Comprehensive geospatial data including land boundaries.
 
 ## Global Sources
 
