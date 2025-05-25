@@ -8,7 +8,8 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 
 - [United States](#united-states)
   - [Federal](#federal)
-  - [State Level](#state-level)
+  - [Statewide Coverage](#statewide-coverage)
+  - [County-Level Coverage](#county-level-coverage)
   - [County/Local](#countylocal)
 - [Global Sources](#global-sources)
 - [Canada](#canada)
@@ -31,22 +32,31 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 - [USDA Geospatial Data Gateway](https://datagateway.nrcs.usda.gov/) - Agricultural and natural resource data including land use.
 - [USGS National Map](https://www.usgs.gov/programs/national-geospatial-program/national-map) - Comprehensive geospatial data including land boundaries.
 
-### State Level
+### Statewide Coverage
+
+States with comprehensive, wall-to-wall parcel coverage:
 
 - [California Statewide Parcel Map](https://geohub.lacity.org/documents/baaf8251bfb94d3984fb58cb5fd93258) - Statewide wall-to-wall parcels in 1.6GB file geodatabase bulk download.
-- [Florida Geographic Data Library](https://www.fgdl.org/) - Statewide parcels available as 2.5GB bulk download (parcels_2023.zip, updated 2024-06-10).
-- [New York State GIS Clearinghouse](https://gis.ny.gov/) - Comprehensive spatial data portal.
+- [Florida Geographic Data Library](https://fgdl.org/zips/geospatial_data/) - Statewide parcels in file geodatabase format with historical archive back to 2007.
 - [North Carolina OneMap Parcels](https://www.nconemap.gov/pages/parcels) - Statewide parcel data for North Carolina.
-- [Texas Natural Resources Information System](https://tnris.org/) - Statewide geographic data clearinghouse.
 - [Washington State Geospatial Open Data Portal](https://geo.wa.gov/) - Statewide GIS data including parcels.
 
-### County/Local
+### County-Level Coverage
 
-- [Cook County (IL) Data Portal](https://datacatalog.cookcountyil.gov/) - Property and assessment data.
-- [King County (WA) Open Data](https://kingcounty.gov/services/gis/GISData.aspx) - Comprehensive parcel and property data.
-- [Los Angeles County GIS Data Portal](https://egis-lacounty.hub.arcgis.com/) - Extensive spatial datasets.
-- [Miami-Dade County Open Data](https://opendata.miamidade.gov/) - Property and land use data.
-- [San Francisco DataSF](https://datasf.org/) - City and county spatial data portal.
+States with parcel data available for select counties only:
+
+#### New York
+- [New York State GIS Data Portal](https://data.gis.ny.gov/search?categories=%252Fcategories%252Fparcels) - Standardized parcels for 36 of 62 counties.
+- **Available Counties**: Albany, Cayuga, Chautauqua, Cortland, Erie, Genesee, Greene, Hamilton, Lewis, Livingston, Montgomery, NYC (all 5 boroughs), Oneida, Onondaga, Ontario, Orange, Oswego, Otsego, Putnam, Rensselaer, Rockland, Schuyler, St Lawrence, Steuben, Suffolk, Sullivan, Tioga, Tompkins, Ulster, Warren, Wayne, Westchester.
+- **Note**: Remaining 26 counties require direct contact with county offices for parcel data access.
+
+#### Oregon
+- [Oregon Department of Forestry](https://gis.odf.oregon.gov/ags1/rest/services/WebMercator/TaxlotsDisplay/MapServer) - Tax lot data for all 36 counties via MapServer service.
+- **Note**: Data currency and completeness varies significantly by county; no standardized statewide dataset.
+
+#### Texas
+- [Texas Natural Resources Information System](https://data.tnris.org/) - County-level parcel data available through modern DataHub with API access.
+- **Note**: Texas does not provide statewide parcel coverage; data availability varies by county.
 
 ## Global Sources
 
@@ -81,63 +91,7 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 - [India Survey of India](https://www.surveyofindia.gov.in/) - National mapping agency data.
 - [South Africa National Geo-spatial Information](https://ngi.dalrrd.gov.za/) - National spatial data infrastructure.
 
-## Tools & Libraries
 
-### Python
-- [Fiona](https://fiona.readthedocs.io/) - Reading and writing spatial data files.
-- [GeoPandas](https://geopandas.org/) - Python library for working with geospatial data.
-- [PyProj](https://pyproj4.github.io/pyproj/) - Cartographic projections and coordinate transformations.
-- [Rasterio](https://rasterio.readthedocs.io/) - Access to geospatial raster data.
-- [Shapely](https://shapely.readthedocs.io/) - Manipulation and analysis of geometric objects.
-
-### R
-- [leaflet (R)](https://rstudio.github.io/leaflet/) - Interactive web maps for R.
-- [rgdal](https://cran.r-project.org/web/packages/rgdal/) - Geospatial Data Abstraction Library bindings.
-- [sf](https://r-spatial.github.io/sf/) - Simple Features for R.
-- [sp](https://cran.r-project.org/web/packages/sp/) - Classes and methods for spatial data.
-
-### JavaScript
-- [D3.js](https://d3js.org/) - Data visualization including geographic projections.
-- [Leaflet](https://leafletjs.com/) - Open-source JavaScript library for interactive maps.
-- [OpenLayers](https://openlayers.org/) - High-performance web mapping library.
-- [Turf.js](https://turfjs.org/) - Geospatial analysis library.
-
-### Desktop GIS
-- [GRASS GIS](https://grass.osgeo.org/) - Geographic Resources Analysis Support System.
-- [PostGIS](https://postgis.net/) - Spatial database extender for PostgreSQL.
-- [QGIS](https://qgis.org/) - Free and open-source geographic information system.
-
-## APIs
-
-- [Census Bureau API](https://www.census.gov/data/developers/data-sets.html) - Access to US Census geographic data.
-- [Google Maps Platform](https://developers.google.com/maps) - Commercial mapping and geocoding services.
-- [HERE API](https://developer.here.com/) - Location services and mapping APIs.
-- [Mapbox API](https://docs.mapbox.com/api/) - Location data platform APIs.
-- [Overpass API](https://overpass-api.de/) - Read-only API for OpenStreetMap data.
-
-## Visualization Tools
-
-- [ArcGIS Online](https://www.arcgis.com/home/index.html) - Cloud-based mapping platform.
-- [Carto](https://carto.com/) - Location intelligence platform.
-- [Deck.gl](https://deck.gl/) - WebGL-powered framework for visual exploratory data analysis.
-- [Kepler.gl](https://kepler.gl/) - Open-source geospatial analysis tool for large-scale data sets.
-- [Mapbox Studio](https://www.mapbox.com/mapbox-studio/) - Design tool for custom maps.
-
-## Data Processing
-
-- [Apache Sedona](https://sedona.apache.org/) - Spatial computing engine for big data.
-- [FME](https://www.safe.com/fme/) - Data integration platform (commercial).
-- [GDAL/OGR](https://gdal.org/) - Geospatial Data Abstraction Library.
-- [GeoServer](https://geoserver.org/) - Open-source server for sharing geospatial data.
-- [MapServer](https://mapserver.org/) - Platform for publishing spatial data.
-
-## Educational Resources
-
-- [Coursera GIS Courses](https://www.coursera.org/courses?query=gis) - University-level GIS education.
-- [ESRI Training](https://www.esri.com/training/) - Professional GIS training courses.
-- [GIS Lounge](https://www.gislounge.com/) - Educational articles and tutorials.
-- [QGIS Tutorials](https://www.qgistutorials.com/) - Step-by-step QGIS tutorials.
-- [Spatial Analysis Online](https://spatialanalysisonline.com/) - Comprehensive guide to spatial analysis.
 
 ## Standards & Formats
 
