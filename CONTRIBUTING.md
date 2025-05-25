@@ -88,7 +88,7 @@ If you find:
 - Inappropriate content
 - Missing important resources
 
-Please [open an issue](https://github.com/yourusername/awesome-list-of-parcels/issues) with:
+Please [open an issue](https://github.com/mihiarc/awesome-parcels/issues) with:
 - Clear description of the problem
 - Link to the problematic content (if applicable)
 - Suggested fix (if you have one)

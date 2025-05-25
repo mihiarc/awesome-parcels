@@ -7,7 +7,7 @@ This repository contains a curated list of free land parcel data sources, tools,
 ## Repository Structure
 
 ```
-awesome-list-of-parcels/
+awesome-parcels/
 ├── README.md                    # Main awesome list
 ├── CONTRIBUTING.md              # Contribution guidelines
 ├── PROJECT.md                   # This file - project documentation
@@ -110,8 +110,8 @@ The repository includes automated checks for:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/awesome-list-of-parcels.git
-cd awesome-list-of-parcels
+git clone https://github.com/mihiarc/awesome-parcels.git
+cd awesome-parcels
 
 # Set up development environment
 make dev-setup

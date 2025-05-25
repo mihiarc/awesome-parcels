@@ -6,11 +6,11 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 
 ## Contents
 
-- [Global Sources](#global-sources)
 - [United States](#united-states)
   - [Federal](#federal)
   - [State Level](#state-level)
   - [County/Local](#countylocal)
+- [Global Sources](#global-sources)
 - [Canada](#canada)
 - [Europe](#europe)
 - [Australia & New Zealand](#australia--new-zealand)
