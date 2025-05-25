@@ -56,7 +56,7 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 ## Canada
 
 - [British Columbia Data Catalogue](https://catalogue.data.gov.bc.ca/) - Provincial open data including parcels.
-- [Natural Resources Canada Open Maps](https://open.canada.ca/data/en/dataset?organization=nrcan-rncan) - Free geospatial data portal.
+- [Natural Resources Canada GEO.ca](https://geo.ca/) - Canada's definitive source for open geospatial information.
 - [Ontario GeoHub](https://geohub.lio.gov.on.ca/) - Provincial geospatial data portal.
 - [Statistics Canada Boundary Files](https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm) - Administrative boundary data.
 
@@ -71,7 +71,7 @@ Land parcel data is fundamental for urban planning, real estate analysis, enviro
 ## Australia & New Zealand
 
 - [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files) - Statistical boundary files.
-- [Geoscience Australia](https://data.gov.au/data/organization/geoscience-australia) - National geospatial datasets.
+- [Geoscience Australia](https://www.ga.gov.au/data-pubs) - National geospatial datasets and data portal.
 - [Land Information New Zealand (LINZ)](https://data.linz.govt.nz/) - Comprehensive land and property data.
 
 ## Other Countries
