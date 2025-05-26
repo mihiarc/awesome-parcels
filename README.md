@@ -83,9 +83,8 @@ States with parcel data available by county only only:
 - **Note**: While all counties are covered, each county must be downloaded separately; no single statewide bulk download available.
 
 #### Virginia
-- [Virginia Geographic Information Network (VGIN)](https://vgin.virginia.gov/) - State coordinating body for GIS data with links to local parcel data sources.
 - **Coverage**: Decentralized model with 95 counties and 38 independent cities maintaining individual parcel datasets.
-- **Data Coordination**: VGIN provides guidance and standards but no centralized statewide parcel dataset.
+- **Data Coordination**: Virginia Geographic Information Network (VGIN) provides guidance and standards but no centralized statewide parcel dataset.
 - **Access Methods**: Individual county/city GIS portals, open data portals, and direct data requests.
 - **Notable Localities**: Fairfax County, Virginia Beach, Loudoun County, Henrico County, and Richmond City provide comprehensive open parcel data.
 - **Data Formats**: Varies by locality - common formats include Shapefile, GeoJSON, File Geodatabase, and web services.
@@ -148,7 +147,6 @@ States with parcel data available by county only only:
 
 - [Brazil IBGE](https://www.ibge.gov.br/geociencias/downloads-geociencias.html) - Brazilian geographic and statistical data.
 - [India Survey of India](https://www.surveyofindia.gov.in/) - National mapping agency data.
-- [South Africa National Geo-spatial Information](https://ngi.dalrrd.gov.za/) - National spatial data infrastructure.
 
 
 

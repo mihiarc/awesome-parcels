@@ -1,0 +1,66 @@
+Awesome Parcels Link Validation Report
+==================================================
+
+Generated: 2025-05-26 16:38:52
+Total URLs: 51
+Success Rate: 98.0%
+
+DETAILED RESULTS:
+--------------------
+✅ [200] https://awesome.re/badge.svg - OK
+✅ [200] https://geohub.lacity.org/documents/baaf8251bfb94d3984fb58cb5fd93258 - OK
+✅ [200] https://fgdl.org/zips/geospatial_data/ - OK
+✅ [200] https://www.nconemap.gov/pages/parcels - OK
+✅ [200] https://geo.wa.gov/ - OK
+✅ [200] https://data.gis.ny.gov/search?categories=%252Fcategories%252Fparcels - OK
+✅ [200] https://gis.odf.oregon.gov/ags1/rest/services/WebMercator/TaxlotsDisplay/MapServer - OK
+✅ [200] https://catalog.data.gov/dataset/city-of-sioux-falls-parcel-finder-4f61c - OK
+✅ [200] https://www.minnehahacounty.gov/dept/eq/beacon/beacon.php - OK
+✅ [200] https://pennco.org/?SEC=4D72463E-A114-457E-9188-10A9F51F7815 - OK
+✅ [200] https://southdakotadirectors.com/ - OK
+✅ [200] https://data.tnris.org/ - OK
+✅ [200] https://github.com/TNRIS/go-bulk-downloader - OK
+✅ [200] https://gis.utah.gov/products/sgid/cadastre/parcels/ - OK
+✅ [200] https://wyo-prop-div.maps.arcgis.com/home/index.html - OK
+✅ [200] https://www.maine.gov/geolib/ - OK
+✅ [200] https://www.maine.gov/megis/catalog/ - OK
+✅ [200] https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html - OK
+✅ [200] https://geolibrary-maine.opendata.arcgis.com/ - OK
+✅ [200] https://www.arcgis.com/apps/webappviewer/index.html?id=28e35c8fcf514d2685357b78bdd0b246 - OK
+✅ [200] https://www.blm.gov/services/land-records - OK
+✅ [200] https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html - OK
+✅ [200] https://datagateway.nrcs.usda.gov/ - OK
+✅ [200] https://www.usgs.gov/programs/national-geospatial-program/national-map - OK
+✅ [200] https://gadm.org/ - OK
+✅ [200] https://www.naturalearthdata.com/ - OK
+✅ [200] https://www.openstreetmap.org/ - OK
+✅ [200] https://catalogue.data.gov.bc.ca/ - OK
+✅ [200] https://geo.ca/ - OK
+✅ [200] https://geohub.lio.gov.on.ca/ - OK
+✅ [200] https://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/bound-limit-eng.cfm - OK
+✅ [200] https://www.eea.europa.eu/data-and-maps - OK
+✅ [200] https://cadastre.data.gouv.fr/ - OK
+✅ [200] https://www.govdata.de/ - OK
+✅ [200] https://inspire-geoportal.ec.europa.eu/ - OK
+✅ [200] https://landregistry.data.gov.uk/ - OK
+✅ [200] https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files - OK
+✅ [200] https://www.ga.gov.au/data-pubs - OK
+✅ [200] https://data.linz.govt.nz/ - OK
+✅ [200] https://www.ibge.gov.br/geociencias/downloads-geociencias.html - OK
+✅ [200] https://www.surveyofindia.gov.in/ - OK
+✅ [200] https://geojson.org/ - OK
+✅ [200] https://www.geopackage.org/ - OK
+✅ [200] https://developers.google.com/kml/ - OK
+✅ [200] https://www.ogc.org/standards/ - OK
+✅ [200] https://en.wikipedia.org/wiki/Shapefile - OK
+✅ [200] https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry - OK
+❌ [0] CONTRIBUTING.md - Request Error: Invalid URL 'CONTRIBUTING.md': No scheme supplied. Perhaps you meant https://CONTRIBUTING.md?
+✅ [200] https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg - OK
+✅ [200] https://awesome.re - OK
+✅ [200] https://creativecommons.org/publicdomain/zero/1.0/ - OK
+
+FAILED URLs (1):
+--------------------
+• CONTRIBUTING.md
+  Status: 0 - Request Error: Invalid URL 'CONTRIBUTING.md': No scheme supplied. Perhaps you meant https://CONTRIBUTING.md?
+
