@@ -90,6 +90,20 @@ States with parcel data available by county only only:
 #### Wyoming
 - [Wyoming Property Division GIS Portal](https://wyo-prop-div.maps.arcgis.com/home/index.html) - ArcGIS Online portal providing access to Wyoming property and parcel data.
 
+#### Maine
+- [Maine GeoLibrary](https://www.maine.gov/geolib/) - State geospatial data portal with comprehensive parcel data access through multiple channels.
+- **Organized Towns**: [Maine Office of GIS](https://www.maine.gov/megis/catalog/) - Tax parcel data for organized municipalities available through Maine GeoLibrary Data Catalog.
+- **Unorganized Towns**: [LUPC Zoning and Parcel Viewer](https://www.maine.gov/dacf/lupc/plans_maps_data/digital_maps_data.html) - Land Use Planning Commission parcel data for unorganized and deorganized areas.
+- **Data Portal**: [Maine GeoLibrary Data Catalog](https://geolibrary-maine.opendata.arcgis.com/) - Modern open data portal with search, filter, and download capabilities.
+- **Interactive Viewer**: [Maine Geolibrary Parcel Viewer Application](https://www.arcgis.com/apps/webappviewer/index.html?id=28e35c8fcf514d2685357b78bdd0b246) - Web-based parcel viewing application.
+- **Coverage**: Comprehensive statewide coverage split between organized towns (handled by Maine Office of GIS) and unorganized territories (handled by LUPC).
+- **Data Formats**: Shapefile, GeoJSON, File Geodatabase, KML, and ArcGIS web services available.
+- **Coordinate System**: UTM NAD83 Zone 19 North (primary), with Web Mercator versions available.
+- **Update Frequency**: Varies by municipality for organized towns; LUPC data updated periodically for unorganized areas.
+- **Access Methods**: Direct download, ArcGIS feature services, web map viewers, and REST services.
+- **Special Features**: Digital Parcels Project providing standardized parcel data across the state, with both assessment and zoning information.
+- **Note**: Maine's unique administrative structure requires accessing organized town parcels through the state GIS office and unorganized territory parcels through LUPC.
+
 ### Federal
 
 - [BLM Land Records](https://www.blm.gov/services/land-records) - Bureau of Land Management's land records and survey data.
