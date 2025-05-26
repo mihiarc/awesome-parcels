@@ -76,6 +76,17 @@ States with parcel data available by county only only:
 - **Legal Foundation**: Mandated by HB113 (2005) requiring state coordination with county recorders and surveyors.
 - **Note**: While all counties are covered, each county must be downloaded separately; no single statewide bulk download available.
 
+#### Virginia
+- [Virginia Geographic Information Network (VGIN)](https://vgin.virginia.gov/) - State coordinating body for GIS data with links to local parcel data sources.
+- **Coverage**: Decentralized model with 95 counties and 38 independent cities maintaining individual parcel datasets.
+- **Data Coordination**: VGIN provides guidance and standards but no centralized statewide parcel dataset.
+- **Access Methods**: Individual county/city GIS portals, open data portals, and direct data requests.
+- **Notable Localities**: Fairfax County, Virginia Beach, Loudoun County, Henrico County, and Richmond City provide comprehensive open parcel data.
+- **Data Formats**: Varies by locality - common formats include Shapefile, GeoJSON, File Geodatabase, and web services.
+- **Update Frequency**: Varies significantly by locality, typically ranging from monthly to annually.
+- **Limitations**: No standardized statewide schema; attribute completeness and data currency varies by jurisdiction.
+- **Note**: Each locality must be contacted individually for data access requirements and availability.
+
 #### Wyoming
 - [Wyoming Property Division GIS Portal](https://wyo-prop-div.maps.arcgis.com/home/index.html) - ArcGIS Online portal providing access to Wyoming property and parcel data.
 
