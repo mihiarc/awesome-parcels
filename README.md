@@ -59,6 +59,12 @@ States with parcel data available by county only only:
 - **Limitations**: No bulk download option; data must be accessed through MapServer queries with 1000 record limit per request.
 - **Note**: Data currency and completeness varies significantly by county; no standardized statewide dataset or update schedule.
 
+#### South Dakota
+- [City of Sioux Falls Parcel Finder](https://catalog.data.gov/dataset/city-of-sioux-falls-parcel-finder-4f61c) - Web mapping application with parcel, address, and zoning information for Sioux Falls.
+- [Minnehaha County Beacon System](https://www.minnehahacounty.gov/dept/eq/beacon/beacon.php) - Minnehaha County real estate information system with over 73,500 parcels.
+- [Pennington County Property Search](https://pennco.org/?SEC=4D72463E-A114-457E-9188-10A9F51F7815) - Property and map search for Pennington County assessments and information.
+- [South Dakota Directors Hub](https://southdakotadirectors.com/) - Central hub providing access to South Dakota assessor offices and parcel data statewide.
+
 #### Texas
 - [Texas Natural Resources Information System](https://data.tnris.org/) - County-level parcel data available through modern DataHub with API access.
 - **Data Portal**: Modern web-based DataHub interface with search, filter, and download capabilities.
