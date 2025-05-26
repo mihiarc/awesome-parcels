@@ -76,6 +76,9 @@ States with parcel data available by county only only:
 - **Legal Foundation**: Mandated by HB113 (2005) requiring state coordination with county recorders and surveyors.
 - **Note**: While all counties are covered, each county must be downloaded separately; no single statewide bulk download available.
 
+#### Wyoming
+- [Wyoming Property Division GIS Portal](https://wyo-prop-div.maps.arcgis.com/home/index.html) - ArcGIS Online portal providing access to Wyoming property and parcel data.
+
 ### Federal
 
 - [BLM Land Records](https://www.blm.gov/services/land-records) - Bureau of Land Management's land records and survey data.
